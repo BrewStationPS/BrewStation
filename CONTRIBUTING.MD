@@ -1,4 +1,4 @@
-To add your own homebrew(s) to BrewStation, modify `list.json` by following this schema:
+To add your own homebrew(s) to BrewStation, modify `listings.json` by following this schema:
 ```json
      {
         "title": "Your title here",
