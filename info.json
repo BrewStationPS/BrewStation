@@ -1,0 +1,8 @@
+{
+    "title": "BrewStation Static Example",
+    "desc": "Example of a static BrewStation store",
+    "color": "#0000ff",
+    "url": "https://brewstationps.github.io/Example-Static-Store",
+    "hb_list": "list.json",
+    "plugin_list": "plugins.json"
+}

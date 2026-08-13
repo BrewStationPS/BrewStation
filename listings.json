@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Rabbid MultiTool",
+        "titleid": "RBMT78900",
+        "version": "0.12pre2",
+        "author": "Harommel",
+        "platform": "PS Vita",
+        "category": "Utility",
+        "externaldl": true,
+        "download": "https://github.com/HarommelRabbid/RabbidMultiToolVita/releases/download/0.12pre2/Rabbid.MultiTool.0.12pre2.vpk"
+    },
+    {
+        "title": "Rabbid MultiTool LPP-Vita",
+        "titleid": "RBMT78901",
+        "version": "0.1",
+        "author": "Harommel",
+        "platform": "PS Vita",
+        "category": "Utility",
+        "externaldl": true,
+        "download": "https://github.com/HarommelRabbid/RabbidMultiToolLPP-Vita/releases/download/0.1/Rabbid.MultiTool.LPP-Vita.0.1.vpk"
+    },
+    {
+        "title": "Better QR Scanner",
+        "titleid": "BETTERQRS",
+        "version": "24-07-25",
+        "author": "Harommel",
+        "platform": "PS Vita",
+        "category": "Utility",
+        "externaldl": true,
+        "download": "https://github.com/HarommelRabbid/BetterQRScanner/releases/download/24-07-25/Better.QR.Scanner.vpk"
+    },
+    {
+        "title": "Vita Sokoban",
+        "titleid": "VTSOKOBAN",
+        "version": "02-11-25",
+        "author": "Harommel",
+        "platform": "PS Vita",
+        "category": "Game",
+        "externaldl": true,
+        "download": "https://github.com/HarommelRabbid/VitaSokoban/releases/download/02-11-25/Vita.Sokoban.vpk"
+    },
+    {
+        "title": "Aleph One",
+        "titleid": "ALPH00001",
+        "version": "1.4",
+        "author": "DrDecki",
+        "platform": "PS Vita",
+        "category": "Port",
+        "externaldl": true,
+        "download": "https://github.com/DrDecki/Aleph-One-Marathon-Trilogy-PsVita-/releases/download/AlephOneVita1.4/alephone.vpk",
+        "datafiles": true,
+        "externaldf": "https://github.com/DrDecki/Aleph-One-Marathon-Trilogy-PsVita-/releases/download/AlephOneVita1.4/AlephOne.zip"
+    }
+]

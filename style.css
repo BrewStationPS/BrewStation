@@ -1,0 +1,35 @@
+body {
+  font-family: "Century Gothic", "Futura", sans-serif;
+  margin: 0;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  display: block;
+}
+nav a {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  user-select: none;
+}
+nav a:hover {
+  background-color: blue;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table th {
+  background-color: blue;
+  color: white;
+}
+table tr {
+  text-align: center;
+}
+table tr:nth-child(odd){
+  background-color: lightgray;
+}
