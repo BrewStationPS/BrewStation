@@ -15,7 +15,7 @@ $(document).ready(function () {
             var tr = $('<tr/>');
             
             // Icon
-            tr.append("<td><img src=\"./icons/" + item.titleid + ".png\" width=\"64px\" alt=\"icon\" /></td>");
+            tr.append("<td><img src=\"./icons/" + item.titleid + ".png\" width=\"64px\" /></td>");
             
             // Details
             tr.append("<td>" + item.title + "</td>");
