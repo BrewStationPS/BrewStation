@@ -6,7 +6,7 @@ $(document).ready(function () {
             tr.append("<td>" + item.title + "</td>");
             tr.append("<td>" + item.titleid + "</td>");
             tr.append("<td>" + item.version + "</td>");
-            tr.append("<td>" + item.category + "</td>");
+            tr.append("<td>" + item.category.join(", ") + "</td>");
             tr.append("<td>" + item.author + "</td>");
             tr.append("<td>" + item.platform + "</td>");
             var dfstr = "";
