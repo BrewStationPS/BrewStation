@@ -54,7 +54,9 @@
         "version": "1.4",
         "author": "DrDecki",
         "platform": "PS Vita",
-        "category": "Port",
+        "category": [
+            "Port"
+        ],
         "externaldl": true,
         "download": "https://github.com/DrDecki/Aleph-One-Marathon-Trilogy-PsVita-/releases/download/AlephOneVita1.4/alephone.vpk",
         "datafiles": true,
