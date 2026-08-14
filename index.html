@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>BrewStation static repo example</title>
@@ -10,9 +11,6 @@
     <meta property="og:url" content="https://brewstationps.github.io/Example-Static-Store/" />
     <meta property="og:title" content="BrewStation" />
     <meta property="og:description" content="Homebrew store for the PSP, PS3, and PS Vita" />
-  
-    <!--<meta property="og:image" content="" />-->
-    
     <meta name="theme-color" content="#0000FF" />
 
     <link href="./style.css" type="text/css" rel="stylesheet">
@@ -21,18 +19,36 @@
   </head>
   <body>
     <nav><a><b>BrewStation</b></a><a href="./about.html">About</a></nav>
-    <!-- filtering/search here? -->
+
+    <!-- Controls Container -->
+    <div class="controls-container">
+      <input type="text" id="search-input" placeholder="Search title, author, Title ID..." />
+      
+      <select id="category-select">
+        <option value="ALL">All Categories</option>
+      </select>
+
+      <select id="platform-select">
+        <option value="ALL">All Platforms</option>
+      </select>
+    </div>
+
     <table>
-      <tr>
-        <th>Icon</th>
-        <th>Title</th>
-        <th>Title ID</th>
-        <th>Version</th>
-        <th>Category</th>
-        <th>Author</th>
-        <th>Platform</th>
-        <th>Download</th>
-      </tr>
+      <thead>
+        <tr>
+          <th>Icon</th>
+          <th>Title</th>
+          <th>Title ID</th>
+          <th>Version</th>
+          <th>Category</th>
+          <th>Author</th>
+          <th>Platform</th>
+          <th>Download</th>
+        </tr>
+      </thead>
+      <tbody id="listings-body">
+        <!-- Rows will be dynamically rendered here -->
+      </tbody>
     </table>
   </body>
 </html>
