@@ -38,17 +38,16 @@ table tr:nth-child(odd){
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  padding: 12px;
+  padding: 10px;
   background-color: #f0f0f0;
 }
 
 .controls-container input[type="text"],
 .controls-container select {
   font-family: inherit;
-  padding: 8px 12px;
+  padding: 10px;
   font-size: 14px;
   border: 1px solid #ccc;
-  border-radius: 4px;
   outline: none;
 }
 
@@ -60,8 +59,4 @@ table tr:nth-child(odd){
 .controls-container input[type="text"]:focus,
 .controls-container select:focus {
   border-color: blue;
-}
-
-table th, table td {
-  padding: 8px;
 }
