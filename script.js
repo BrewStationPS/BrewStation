@@ -75,7 +75,7 @@ $(document).ready(function () {
         const selectedPlat = $('#platform-select').val();
 
         const filtered = allListings.filter(item => {
-            // Text Search (Matches Title, Author, or Title ID)
+            // Text Search
             const matchesSearch = 
                 (item.title && item.title.toLowerCase().includes(query)) ||
                 (item.author && item.author.toLowerCase().includes(query)) ||
