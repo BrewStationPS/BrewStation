@@ -413,6 +413,21 @@
         "datafiles": false
     },
     {
+        "title": "Miaki",
+        "titleid": "MIAKITOOL",
+        "version": "3.5-main",
+        "author": "LazyPreview",
+        "platform": "PS Vita",
+        "category": [
+            "Utility",
+            "System",
+            "Developer"
+        ],
+        "externaldl": true,
+        "download": "https://github.com/cem-3000ve1/Miaki/releases/download/v103/MIAKI.vpk",
+        "datafiles": false
+    },
+    {
         "title": "RegistryEditor",
         "titleid": "REGEDIT01",
         "version": "1.3",
