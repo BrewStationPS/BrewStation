@@ -440,5 +440,45 @@
         "externaldl": true,
         "download": "https://github.com/devnoname120/RegistryEditorMOD/releases/latest/download/RegistryEditor.vpk",
         "datafiles": false
+    },
+    {
+        "title": "CMFileManager",
+        "titleid": "CMFILEMGR",
+        "version": "4.10",
+        "author": "Joel16",
+        "platform": "PSP",
+        "category": [
+            "Utility"
+        ],
+        "externaldl": true,
+        "download": "https://github.com/joel16/CMFileManager-PSP/releases/download/v4.10/CMFileManager-PSP.zip",
+        "datafiles": false
+    },
+    {
+        "title": "GameDiary",
+        "titleid": "GAMEDIARY",
+        "version": "1.0.0",
+        "author": "OniMock",
+        "platform": "PSP",
+        "category": [
+            "Utility"
+        ],
+        "externaldl": true,
+        "download": "https://github.com/OniMock/GameDiary/releases/download/v1.0.0/GameDiary.zip",
+        "datafiles": false
+    },
+    {
+        "title": "ChronoSwitch",
+        "titleid": "CHRONOSW",
+        "version": "7.6.2",
+        "author": "Krazynez",
+        "platform": "PSP",
+        "category": [
+            "Utility"
+        ],
+        "externaldl": true,
+        "download": "https://github.com/PSP-Archive/Chronoswitch/releases/download/v7.6.2/ChronoSwitch.zip",
+        "datafiles": false
     }
+
 ]
